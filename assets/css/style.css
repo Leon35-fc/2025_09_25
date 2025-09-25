@@ -43,6 +43,10 @@ table {
   margin: 1em 0;
 }
 
+strong{
+    text-decoration-thickness: 2px;
+}
+
 /* HEADER */
 
 header {
@@ -126,7 +130,7 @@ section {
 }
 
 caption {
-  background-color: rgb(132, 106, 238);
+  background-color: rgb(255, 255, 255);
 }
 
 th {
@@ -143,8 +147,14 @@ tr {
 /* TABELLE */
 
 table {
+  margin: 1em auto;
   border-style: solid;
   background-color: deepskyblue;
+  list-style:lower-alpha;
+}
+
+iframe{
+    margin: 0 auto;
 }
 
 /* FORM */
